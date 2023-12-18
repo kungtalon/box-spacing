@@ -18,7 +18,7 @@ var config = struct {
 	paddingSize:   0.1,
 	initialStep:   0.1,
 	ratioInterval: 0.2,
-	thetas:        []float64{0, math.Pi / 4, -math.Pi / 4},
+	thetas:        []float64{0, math.Pi / 2, math.Pi / 4, -math.Pi / 4, -math.Pi / 2},
 }
 
 type BoxIndexer interface {

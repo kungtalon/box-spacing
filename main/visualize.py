@@ -17,7 +17,7 @@ def plot_boxes_csv(file, subplot_idx):
             ax.add_patch(patches.Rectangle(
                 [values[0], values[1]],
                 values[2] - values[0], values[3] - values[1],
-                color=list(np.random.choice(range(256), size=3) / 256)
+                color=list(np.random.choice(range(256), size=3) / 255)
             ))
 
 
